@@ -3,4 +3,4 @@ project(DuckSimulation)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(DuckSimulation main.cpp duck.cpp duck.h duck_behaviors.cpp duck_behaviors.h)
+add_executable(DuckSimulation main.cc duck.cc duck.h duck_behaviors.cc duck_behaviors.h)
