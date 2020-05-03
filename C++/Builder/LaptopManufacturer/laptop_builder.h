@@ -1,7 +1,7 @@
 #ifndef LAPTOPMANUFACTURER_LAPTOP_BUILDER_H
 #define LAPTOPMANUFACTURER_LAPTOP_BUILDER_H
 
-
+#include <memory>
 #include "laptop.h"
 
 class LaptopBuilder {
