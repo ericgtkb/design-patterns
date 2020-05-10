@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Build and run project in the same structure as intellij
+# Make sure to run this only at the root of the project
+
+projectname="$(basename "$(pwd)")"
+
+# Replace non-alphanumeric characters
+projectname=${projectname//[^[:alnum:]]/_}
+packagename="com.ericgtkb"
+
+echo "Building project ${projectname}..."
+
+javac -d "out/production/${projectname}" "src/${packagename//\./\/}"/*.java
+
+java -cp "out/production/${projectname}" "${packagename}.Main"
+
+

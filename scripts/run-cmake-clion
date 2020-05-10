@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Build and run project in the same structure as clion
+# Make sure to run this only at the root of the project
+
+projectname="$(basename "$(pwd)")"
+
+# Replace non-alphanumeric characters
+projectname=${projectname//[^[:alnum:]]/_}
+
+cmakedir="cmake-build-debug"
+
+echo "Building project ${projectname}..."
+
+[ -d "$cmakedir" ] || mkdir -p "$cmakedir"
+
+cd "$cmakedir" && cmake .. && cd ..
+
+# options after -- are sent to make, -j flag allows parallelism
+cmake --build "$cmakedir" --target "$projectname" -- -j 8
+
+"./${cmakedir}/${projectname}"
+
