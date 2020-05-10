@@ -11,12 +11,11 @@ cmakedir="cmake-build-debug"
 
 echo "Building project ${projectname}..."
 
-[ -d "$cmakedir" ] || mkdir -p "$cmakedir"
+cmake -S . -B "$cmakedir"
 
-cd "$cmakedir" && cmake .. && cd ..
-
-# options after -- are sent to make, -j flag allows parallelism
+# Options after -- are sent to make, -j flag allows parallelism
 cmake --build "$cmakedir" --target "$projectname" -- -j 8
 
+# Runc the project
 "./${cmakedir}/${projectname}"
 

@@ -10,8 +10,10 @@ packagename="com.ericgtkb"
 
 echo "Building project ${projectname}..."
 
+# Note the globbing part is not in quotes
 javac -d "out/production/${projectname}" "src/${packagename//\./\/}"/*.java
 
+# Run the project
 java -cp "out/production/${projectname}" "${packagename}.Main"
 
 
