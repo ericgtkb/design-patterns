@@ -1,11 +1,8 @@
-//
-// Created by Eric Chen on 2019-09-02.
-//
-
 #ifndef DUCKSIMULATION_DUCK_H
 #define DUCKSIMULATION_DUCK_H
 
 
+#include <memory>
 #include "duck_behaviors.h"
 
 class Duck {
