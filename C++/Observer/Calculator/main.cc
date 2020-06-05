@@ -1,4 +1,3 @@
-#include <iostream>
 #include "subject.h"
 #include "observer.h"
 

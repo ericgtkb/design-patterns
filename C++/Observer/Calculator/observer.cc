@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 2019-09-05.
-//
-
 #include <iostream>
 #include "observer.h"
 
