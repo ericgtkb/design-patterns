@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 10/6/19.
-//
-
 #include <iostream>
 #include <iomanip>
 #include "beverage.h"

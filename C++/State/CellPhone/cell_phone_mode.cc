@@ -1,7 +1,3 @@
-//
-// Created by ericchen on 12/8/19.
-//
-
 #include <iostream>
 #include "cell_phone_mode.h"
 

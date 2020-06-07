@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 12/14/19.
-//
-
 #include <iostream>
 #include "the_only_one.h"
 

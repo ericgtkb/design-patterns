@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 10/6/19.
-//
-
 #ifndef COFFEESHOP_BEVERAGE_H
 #define COFFEESHOP_BEVERAGE_H
 

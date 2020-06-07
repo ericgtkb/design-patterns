@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 10/30/19.
-//
-
 #include "turkey_adapter.h"
 
 TurkeyAdapter::TurkeyAdapter(Turkey& turkey) : turkey(turkey) {}

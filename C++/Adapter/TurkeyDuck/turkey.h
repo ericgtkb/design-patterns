@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 10/30/19.
-//
-
 #ifndef TURKEYDUCK_TURKEY_H
 #define TURKEYDUCK_TURKEY_H
 

@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 12/14/19.
-//
-
 #ifndef THEONLYONE_THE_ONLY_ONE_H
 #define THEONLYONE_THE_ONLY_ONE_H
 

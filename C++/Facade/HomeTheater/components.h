@@ -1,7 +1,3 @@
-//
-// Created by ericchen on 12/24/19.
-//
-
 #ifndef HOMETHEATER_COMPONENTS_H
 #define HOMETHEATER_COMPONENTS_H
 

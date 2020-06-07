@@ -1,7 +1,3 @@
-//
-// Created by ericchen on 12/24/19.
-//
-
 #include <iostream>
 #include "components.h"
 

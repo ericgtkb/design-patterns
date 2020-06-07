@@ -1,7 +1,3 @@
-//
-// Created by ericchen on 12/8/19.
-//
-
 #ifndef CELLPHONE_CELL_PHONE_MODE_H
 #define CELLPHONE_CELL_PHONE_MODE_H
 

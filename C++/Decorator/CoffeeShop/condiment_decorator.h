@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 10/6/19.
-//
-
 #ifndef COFFEESHOP_CONDIMENT_DECORATOR_H
 #define COFFEESHOP_CONDIMENT_DECORATOR_H
 

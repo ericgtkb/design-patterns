@@ -1,7 +1,3 @@
-//
-// Created by Eric Chen on 10/6/19.
-//
-
 #include "condiment_decorator.h"
 
 Mocha::Mocha(Beverage& beverage) : beverage(beverage) {}
